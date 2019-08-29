@@ -1,0 +1,45 @@
+{
+  "name": "unienglish",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.5.5",
+    "antd": "^3.22.2",
+    "bootstrap": "^4.3.1",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-dom": "^16.9.0",
+    "react-responsive-navbar": "^1.0.11",
+    "react-scripts": "3.1.1",
+    "styled-bootstrap-components": "^4.0.0-alpha.0",
+    "styled-components": "^4.3.2",
+    "styled-config": "^3.0.1",
+    "styled-container-component": "^3.0.2",
+    "styled-nav-component": "^3.0.1",
+    "styled-navbar-component": "^3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.6"
+  }
+}
