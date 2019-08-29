@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import NavbarDark from './Components/Navbar'
+import NavbarLight from './Components/Navbar'
 import Header from './Components/Header'
 import Services from './Components/Services'
 import About from './Components/About'
@@ -8,7 +8,7 @@ import About from './Components/About'
 function App() {
   return (
     <div>
-      <NavbarDark />
+      <NavbarLight />
       <Header button="Find Out More" />
       <About />
       <Services />

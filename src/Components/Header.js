@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Background from './img/bkimg.jpg'
 // import './Header.css'
-import Button from 'react-bootstrap/Button'
 
 const headerStyle={
   backgroundImage: `url(${Background})`,
@@ -49,7 +48,7 @@ class Header extends Component {
         <header className="container-fluid" style={headerStyle}>
           <h1 className="col-md-4" style={h1Style}>Helping you achieve your dream <br/>of studying at an UK University!</h1>
           <h4 className="col-md-4" style={h4Style}><i>some text that will help me check the location</i></h4>
-          <a style={aStyle} href="#button">{this.props.button}</a>
+          <a className="col-md-4" style={aStyle} href="#button">{this.props.button}</a>
         </header>
 
       )
