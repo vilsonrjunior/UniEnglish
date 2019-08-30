@@ -35,7 +35,7 @@ class NavbarLight extends React.Component {
     return (
       <Container fluid>
         <Container fluid>
-          <Navbar expandSm light>
+          <Navbar expandSm light sticky="top">
             <Nav end>
 
               <NavbarLink light brand href="#">UniEnglish</NavbarLink>
