@@ -25,7 +25,7 @@ class NavbarLight extends React.Component {
   render() {
     const { hidden } = this.state;
 
-    const sections = ['Home', 'About', 'Services', 'Testemonials', 'Contact' ]
+    const sections = ['About', 'Services', 'Testemonials', 'Contact' ]
     const navLinks = sections.map(section => {
         return(
           <NavbarLink light href={'#' + section}>{section}</NavbarLink>
