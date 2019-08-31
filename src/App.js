@@ -4,6 +4,8 @@ import NavbarLight from './Components/Navbar'
 import Header from './Components/Header'
 import Services from './Components/Services'
 import About from './Components/About'
+import Testemonials from './Components/Testemonials'
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <Header button="Find Out More" />
       <About />
       <Services />
+      <Testemonials />
     </div>
   );
 }
