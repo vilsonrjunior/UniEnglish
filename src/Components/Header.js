@@ -4,16 +4,16 @@ import './Header.css'
 
 // const headerStyle={
 //   backgroundImage: `url(${Background})`,
-//   backgroundSize: 'cover',
-//   minHeight: '30rem',
-//   height: 'auto',
-//   margin: '0 auto',
-//   textAlign: 'center',
-//   paddingTop: '8rem',
-//   paddingLeft: '30%',
-//   paddingBottom: '6rem',
-//   backgroundPosition: 'center center',
-//   backgroundRepeat: 'no-repeat',
+  // backgroundSize: 'cover',
+  // minHeight: '30rem',
+  // height: 'auto',
+  // margin: '0 auto',
+  // textAlign: 'center',
+  // paddingTop: '8rem',
+  // paddingLeft: '30%',
+  // paddingBottom: '6rem',
+  // backgroundPosition: 'center center',
+  // backgroundRepeat: 'no-repeat',
 //  }
 
 //  const h1Style={
