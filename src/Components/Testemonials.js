@@ -73,18 +73,16 @@ class Testemonials extends React.Component {
       textAlign: 'center',
       paddingTop: '4%',
       paddingBottom: '4%',
-      paddingRight: '4%',
-      paddingLeft: '4%',
+      paddingRight: '7%',
+      paddingLeft: '7%',
       backgroundColor: '#fff'
     }
 
-    const h3Style={
+    const cardStyle={
       backgroundColor: '#fff',
       borderRadius: '2%',
       boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
       color: '#1d809f',
-      fontSize: '36px',
-      lineHeight: '680px',
       height: '400px',
       margin: '10px',
       padding: '2%',
@@ -92,33 +90,26 @@ class Testemonials extends React.Component {
       textAlign: 'center'
     }
 
+    const reviews = ['John Smith', 'Services', 'Testemonials', 'Contact' ]
+    const review = reviews.map(review => {
+        return(
+          <div>
+            <div style={cardStyle}>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              <h4>{review}</h4>
+              <h5><b>UCL Student 2019</b></h5>
+            </div>
+          </div>
+         )
+      });
+
     return (
       <div style={divStyle}>
 
         <h5 style={h5Style}>TESTEMONIALS</h5>
         <h2 style={h2Style}>What do former students have to say about UniEnglish?</h2>
         <Slider {...settings}>
-
-          <div>
-            <h3 style={h3Style}>2</h3>
-          </div>
-
-          <div>
-            <h3 style={h3Style}>3</h3>
-          </div>
-
-          <div>
-            <h3 style={h3Style}>4</h3>
-          </div>
-
-          <div>
-            <h3 style={h3Style}>5</h3>
-          </div>
-
-          <div>
-            <h3 style={h3Style}>6</h3>
-          </div>
-
+            {review}
         </Slider>
       </div>
     );

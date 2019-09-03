@@ -47,7 +47,7 @@ class Header extends Component {
       return(
         <header>
 
-            <h1>Helping you achieve your dream <br/>of studying at an UK University!</h1>
+            <h1>Helping you achieve your dream <br/>of studying at a UK University!</h1>
             <h4><i>some text that will help me check the location</i></h4>
             <a href="#button">{this.props.button}</a>
 
