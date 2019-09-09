@@ -1,10 +1,9 @@
 import React from 'react';
-import './App.css';
 import NavbarLight from './Components/Navbar'
 import Header from './Components/Header'
 import Services from './Components/Services'
 import About from './Components/About'
-import Testemonials from './Components/Testemonials'
+import Testimonials from './Components/Testimonials'
 import Contact from './Components/Contact'
 import Footer from './Components/Footer'
 
@@ -16,7 +15,7 @@ function App() {
       <Header button="Find Out More" />
       <About />
       <Services />
-      <Testemonials />
+      <Testimonials />
       <Contact />
       <Footer />
     </div>

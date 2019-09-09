@@ -1,6 +1,6 @@
 import React from 'react';
 import { Formik } from 'formik';
-import Background from './img/bg.jpg'
+import Background from './img/ldn3.jpg'
 import styled from 'styled-components'
 
 
@@ -8,7 +8,10 @@ class Contact extends React.Component {
   render() {
 
 const Div = styled.div`
-  background-image: url(${Background});
+  background-image: linear-gradient(
+      rgba(236, 184, 7, 0.5),
+      rgba(236, 184, 7, 0.9)),
+      url(${Background});
   background-size: cover;
   min-height: 30rem;
   height: auto;

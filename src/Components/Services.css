@@ -41,6 +41,7 @@
 
 .services h2 {
   color: #fff;
+  visibility: visible;
   font-size: 2.5rem;
   margin: 0;
   padding: 0;

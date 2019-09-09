@@ -13,11 +13,11 @@ function Arrows(props) {
   );
 }
 
-class Testemonials extends React.Component {
+class Testimonials extends React.Component {
   constructor() {
   super()
     this.state = {
-    testemonials: [
+    testimonials: [
       {
         review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         unicourse: "IELTS Preparation",
@@ -140,13 +140,13 @@ class Testemonials extends React.Component {
     }
 
 
-    const review = this.state.testemonials.map(testemonial => {
+    const review = this.state.testimonials.map(testimonial => {
       return(
           <div>
             <div style={cardStyle}>
-              <p>{testemonial.review}</p>
-              <h4>{testemonial.unicourse}</h4>
-              <h5><b><i>{testemonial.student}</i></b></h5>
+              <p>{testimonial.review}</p>
+              <h4>{testimonial.unicourse}</h4>
+              <h5><b><i>{testimonial.student}</i></b></h5>
             </div>
           </div>
         )
@@ -155,8 +155,8 @@ class Testemonials extends React.Component {
 
     return (
       <div style={divStyle}>
-        <h5 style={h5Style}>TESTEMONIALS</h5>
-        <h2 style={h2Style}>What do former students have to say about UniEnglish?</h2>
+        <h5 style={h5Style}>TESTIMONIALS</h5>
+        <h2 style={h2Style}>What do former students have to say?</h2>
         <Slider {...settings}>
            {review}
         </Slider>
@@ -166,4 +166,4 @@ class Testemonials extends React.Component {
 }
 
 
-export default Testemonials
+export default Testimonials

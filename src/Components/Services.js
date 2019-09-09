@@ -11,36 +11,41 @@ class Services extends Component {
         icon: <FontAwesomeIcon icon={faBook} />,
         title: "IELTS Preparation",
         info:
-          "We can assist you getting the score you need in order to get your uni offer"
+          "A high score in the IELTS exam is the door to any university in the UK. UniEnglish can assist you in getting the score you need to start the degree of your dreams"
       },
       {
         icon: <FontAwesomeIcon icon={faUniversity} />,
-        title: "Pre-arrival Preparation",
+        title: "Academic English lessons",
         info:
-          "Get ready for your uni life in the UK"
+          "Achieved the score you needed in IELTS? Excellent! But this is not enough for achieving outstanding results in your undergraduate or postgraduate course. We can help you improve your Academic English so you can succeed in your degree"
       },
       {
         icon: <FontAwesomeIcon icon={faChalkboardTeacher} />,
-        title: "Very experienced teachers",
+        title: "Pre-arrival preparation",
         info:
-          "All our teachers have years of experienced and have taught at presessional courses at London most prestigious unis"
+          "Be ahead of the game! We can help you with information about living in the UK as a student"
       },
       {
         icon: <FontAwesomeIcon icon={faGraduationCap} />,
-        title: "Success!",
+        title: "Skills focus",
         info:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+          "If you need to improve a particular skill such as reading or writing, we can offer bespoke lessons that will focus specifically on the skills that you need to master"
       }
     ]
   };
-  render() {
+
+  toggleAppear = () => {
+    console.log('hello')
+  }
+
+   render() {
     return (
       <section className="services">
         <div>
           <h5>SERVICES</h5>
           <h2>What we offer</h2>
         </div>
-        <div className="services-center">
+        <div onscroll={this.toggleAppear} className="services-center">
           {this.state.services.map(item => {
             return (
               <div key={`item-${item.title}`} className="service">
