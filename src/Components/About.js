@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Profile from '../Components/img/perfil.jpeg'
 import styled from 'styled-components'
+import { Spring } from 'react-spring/renderprops'
 
 class About extends Component{
   render() {
@@ -56,27 +57,32 @@ class About extends Component{
       margin-top: 0;
     `
 
+
      return (
       <section className="About">
 
-
-        <Div>
-          <H5>ABOUT</H5>
-          <H2>Hello all!</H2>
-          <h3>UniEnglish is an online school providing one-to-one and group live lessons on academic English and exam preparation. Experienced teachers who work or have worked at well-known UK universities will prepare you to succeed in your undergraduate or postgraduate course.
-          </h3>
-        </Div>
+        <Spring
+          from={{ opacity: 0}}
+          to={{ opacity: 1}}
+        >
+          {props => (
+            <Div style={props}>
+              <H5>ABOUT</H5>
+              <H2>Hello all!</H2>
+              <h3>UniEnglish is an online school providing one-to-one and group live lessons on academic English and exam preparation. Experienced teachers who work or have worked at well-known UK universities will prepare you to succeed in your undergraduate or postgraduate course.
+              </h3>
+            </Div>
+            )}
+        </Spring>
 
 
         <Div2>
           <Img src={Profile} alt="profile" />
         </Div2>
 
-
         <Div3>
            <h3>I am Tatiane Depieri, the founder of UniEnglish. I have worked at University College London and University of Liverpool and have over 12 years’ experience working with international students. Having completed a Master’s degree in the UK myself, I know what it takes to be a successful student.</h3>
         </Div3>
-
 
         <Div3>
           <h3>I started UniEnglish after seeing how difficult it was for students to write and read academic texts at undergraduate and postgraduate level. Most students I have had did not feel ready for the UK academic environment even with very high scores in proficiency exams such as IELTS. Our mission at UniEnglish is to prepare speakers of English as a second language for their degrees here in the UK so that they succeed and make the most of their course at university.</h3>
