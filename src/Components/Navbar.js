@@ -39,7 +39,7 @@ class NavbarLight extends React.Component {
           <Navbar expandSm light sticky="top">
             <Nav end>
 
-              <NavbarLink light brand href="#">UniEnglish</NavbarLink>
+              <NavbarLink light brand href="#">R&R Decorators</NavbarLink>
 
               <Button
                 light
