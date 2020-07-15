@@ -13,20 +13,22 @@ header {
  background-size: cover;
 }
 
+
 header img {
-  max-width: 60%;
+  margin-top: 2rem;
+  max-width: 40%;
   height: auto;
 }
 
-#img {
+/*#img {
   max-width: 60%;
   height: auto;
-}
+}*/
 
 header h2 {
   text-shadow: 1px 1px white;
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #19181C;
   font-weight: 700;
 }
@@ -42,11 +44,11 @@ header h4 {
 header a {
   padding-top: 2%;
   font-weight: 700;
-  background-color: #1d809f;
-  color: #fff;
+  background-color: #EDC156;
+  color: #FFFF;
   padding: 1.25rem 2.5rem;
   text-decoration: none;
-  border-radius: 0.25rem;
+  border-radius: 300px;
   font-size: 1rem;
   display: inline-block;
 }
@@ -63,7 +65,7 @@ header a {
 
 @media screen and (max-width: 500px) {
   header h2 {
-  font-size: 2rem;
+  font-size: 1rem;
   padding-top: 4%;
   padding-right: 2%;
   padding-left: 2%;
@@ -74,6 +76,13 @@ header a {
   header h4 {
     width: 100%;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header img {
+    max-width: 60%;
+    height: auto;
   }
 }
 

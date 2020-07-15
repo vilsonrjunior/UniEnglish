@@ -1,0 +1,23 @@
+ /*const Div = styled.div`
+      text-align: center;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      background-image: url('../Components/img/portfolio/PATTERN-AMARELO.png');
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    `*/
+about {
+/* min-height: 10rem;
+ height: auto;
+ margin: 0 auto;
+ text-align: center;
+ padding-top: 3rem;
+ margin: 0 auto;
+ padding-bottom: 3rem;*/
+ background-image:
+      url('../Components/img/portfolio/PATTERN-AMARELO.png');
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
